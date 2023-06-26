@@ -2,7 +2,7 @@
   "name": "@openscd/oscd-tree-grid",
   "description": "An mwc-list based grid component for selecting subtrees from tree shaped data structures",
   "license": "Apache-2.0",
-  "version": "0.0.1-alpha.10",
+  "version": "0.0.1-alpha.11",
   "type": "module",
   "main": "dist/oscd-tree-grid.js",
   "module": "dist/oscd-tree-grid.js",
