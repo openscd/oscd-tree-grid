@@ -90,7 +90,7 @@ describe('oscd-tree-grid', () => {
     el['filterUI']!.dispatchEvent(new Event('input'));
 
     await new Promise(res => {
-      setTimeout(res, 110);
+      setTimeout(res, 260);
     });
 
     /* should display these rows:

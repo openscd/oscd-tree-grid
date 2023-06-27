@@ -64,7 +64,7 @@ function renderCollapseCell(path: Path): TemplateResult {
   >`;
 }
 
-function debounce(callback: () => void, delay = 100) {
+function debounce(callback: () => void, delay = 250) {
   let timeout: ReturnType<typeof setTimeout>;
 
   return () => {
