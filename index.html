@@ -1,0 +1,15 @@
+<link preload rel="stylesheet" href="./fonts.css">
+<title>OpenSCD Core Demo</title>
+
+<oscd-tree-grid filterLabel="Regular Expression"></oscd-tree-grid>
+
+<script type="module">
+import './dist/oscd-tree-grid.js';
+
+const oscdTree = document.querySelector('oscd-tree-grid');
+await oscdTree.updateComplete;
+
+const tree = await fetch('/tree.json').then(r => r.json());
+
+oscdTree.tree = tree;
+</script>
